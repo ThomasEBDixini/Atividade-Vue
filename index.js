@@ -53,3 +53,12 @@ var appFive = new Vue({
         }
     }
 })
+
+// Aplicação 06
+
+var appSix = new Vue({
+    el: "#app-6",
+    data: {
+        message: "Digitar"
+    }
+})
