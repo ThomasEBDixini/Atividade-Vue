@@ -25,3 +25,17 @@ var appThree = new Vue({
         seen: true
     }
 })
+
+// Aplicação 04
+
+var appFour = new Vue({
+    el: "#app-4",
+    data: {
+        all: [
+            {text: "Learn JavaScript"},
+            {text: "Learn Vue"},
+            {text: "Create something amazing"}
+        ]
+
+    }
+})
