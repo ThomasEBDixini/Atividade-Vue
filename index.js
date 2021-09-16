@@ -39,3 +39,17 @@ var appFour = new Vue({
 
     }
 })
+
+// Aplicação 05
+
+var appFive = new Vue({
+    el: '#app-5',
+    data: {
+        message: 'Hello Vue'
+    },
+    methods: {
+        reverseMessage: function() {
+            this.message = this.message.split('').reverse().join('')
+        }
+    }
+})
