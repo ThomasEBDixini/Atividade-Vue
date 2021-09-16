@@ -62,3 +62,22 @@ var appSix = new Vue({
         message: "Digitar"
     }
 })
+
+// Aplicação 07
+
+Vue.component('all-item',{
+    props: ['all'],
+    template: '<li> {{all.text}} </li>'
+})
+
+
+var appSeven = new Vue({
+    el: "#app-7",
+    data: {
+        groceryList: [
+            {id:0, text:"Vegetables"},
+            {id:1, text:"Cheese"},
+            {id:2, text:"Anything that humans can eat"},
+        ]
+    }
+})

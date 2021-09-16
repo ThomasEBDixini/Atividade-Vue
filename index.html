@@ -60,6 +60,20 @@
       <input v-model="message">
   </div>
 
+  <!-- Aplicação 07-->
+
+  <div id="app-7">
+      <ol>
+            <all-item
+                v-for="item in groceryList"
+                v-bind:all="item"
+                v-bind:key="item.id"
+            >
+        
+            </all-item>
+      </ol>
+  </div>
+
 <script src="index.js"></script>
 </body>
 </html>
