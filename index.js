@@ -17,3 +17,11 @@ var appTwo = new Vue({
     }
 })
 
+// Aplicação 03
+
+var appThree = new Vue({
+    el: "#app-3",
+    data: {
+        seen: true
+    }
+})
